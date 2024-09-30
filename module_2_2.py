@@ -7,5 +7,7 @@ elif first == second and first != third:
     print(2)
 elif first == third and first != second:
     print(2)
+elif first != third and second == third:    
+    print(2)
 else:
     print(0)
